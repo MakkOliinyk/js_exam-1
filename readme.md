@@ -12,7 +12,7 @@ Each task can be rated at `0`, `1` or `2` points.
 
 * `0` - wrong solution or no solution;
 * `1` - solution works (tests passed) but code is not clean. Code contains 
-unneeded of wrong methods (e.g. using `map` or `filter` instead of `forEach` to 
+unneeded or wrong methods (e.g. using `map` or `filter` instead of `forEach` to 
 iterate over array).
 * `2` - solution works (tests passed) and code is clean.
 
