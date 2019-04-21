@@ -1,8 +1,8 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "exam-1",
   "version": "1.0.0",
-  "description": "js task boilerplate",
-  "main": "src/sum.js",
+  "description": "JS Exam #1",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"
