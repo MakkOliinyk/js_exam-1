@@ -56,7 +56,7 @@ describe('Testing storage', () => {
       .toBe(0);
   });
 
-  test('store.getValue("key") should return false if it is set to "key"',
+  test('setValue should support false value',
     () => {
       const store = storage();
       store.setValue('key', false);
