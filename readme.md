@@ -18,7 +18,7 @@ iterate over array).
 
 ---
  
-1. [Younger in front](./src/youngerInFront/youngerInFront.js). 
+1. [To digit array](src/toDigitArray/toDigitArray.js) 
 2. [Count occurrences](./src/countOccurrences/countOccurrences.js)
 3. [Storage](./src/storage/storage.js)
 
