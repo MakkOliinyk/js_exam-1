@@ -8,7 +8,7 @@ describe('Testing countOccurrences', () => {
       .toBe(0);
   });
 
-  test('Should return 0 for: "ba" in "samsung"', () => {
+  test('Should return zero when substr not found in str.', () => {
     expect(countOccurrences('samsung', 'ba'))
       .toBe(0);
   });
