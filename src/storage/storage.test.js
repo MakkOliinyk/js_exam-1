@@ -35,7 +35,7 @@ describe('Testing storage', () => {
         .toBe('Michael');
     });
 
-  test('store.getValue("key") should return null if it is set to "key"', () => {
+  test('setValue should support null value', () => {
     const store = storage();
     store.setValue('key', null);
     expect(store.getValue('key'))
