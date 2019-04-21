@@ -4,7 +4,7 @@ const storage = require('./storage');
 
 describe('Testing storage', () => {
   test('Should set and get value', () => {
-    const store = storage();
+    const propsStorage = storage();
     store.setValue('name', 'Peter');
     expect(store.getValue('name'))
       .toBe('Peter');
