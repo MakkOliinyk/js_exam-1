@@ -26,7 +26,7 @@ describe('Testing storage', () => {
       .toBe(undefined);
   });
 
-  test('Should override value on second store.setValue() call with same key',
+  test('Should override value on second setValue() call with same key',
     () => {
       const store = storage();
       store.setValue('name', 'Peter');
