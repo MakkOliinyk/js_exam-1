@@ -42,7 +42,7 @@ describe('Testing storage', () => {
       .toBe(null);
   });
 
-  test('store.getValue("key") should return "" if it is set to "key"', () => {
+  test('setValue should support empty string value', () => {
     const store = storage();
     store.setValue('key', '');
     expect(store.getValue('key'))
