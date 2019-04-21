@@ -3,7 +3,7 @@
 const youngerInFront = require('./youngerInFront');
 
 describe('Testing youngerInFront', () => {
-  test('Should return [1] for: 1', () => {
+  test('Should return array of one digit for single digit numbers', () => {
     expect(youngerInFront(1))
       .toEqual([1]);
   });
