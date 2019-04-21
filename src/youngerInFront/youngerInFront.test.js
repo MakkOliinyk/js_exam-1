@@ -13,7 +13,7 @@ describe('Testing youngerInFront', () => {
       .toEqual([1, 2]);
   });
 
-  test('Should return [1, 4, 5, 2, 3, 4, 6, 7] for: 76432541', () => {
+  test('Should return the array of digits correctly for large numbers.', () => {
     expect(youngerInFront(76432541))
       .toEqual([1, 4, 5, 2, 3, 4, 6, 7]);
   });
