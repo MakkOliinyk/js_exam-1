@@ -13,7 +13,7 @@ describe('Testing countOccurrences', () => {
       .toBe(0);
   });
 
-  test('Should return 2 for: "sam" in "samsungsamsung"', () => {
+  test('Should return number of occurences when substring is found in the string', () => {
     expect(countOccurrences('samsungsamsung', 'sam'))
       .toBe(2);
   });
