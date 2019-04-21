@@ -2,7 +2,7 @@
 
 You are given 105 minutes to solve the tasks in [./src](./src) folder. Each task 
 contains files with the task description and tests. The goal is to solve all 
-tasks in time. Make sure you can't run `git push` until your solutions have 
+tasks in time. You can't run `git push` until your solutions pass all the tests. 
 passed all tests. 
 
 To push unfinished solutions add option `--no-verify` to the push command. <br>
