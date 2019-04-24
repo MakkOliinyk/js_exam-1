@@ -13,7 +13,7 @@
  * doesn't contain repeating letters (substr can't be equal xyx)
  *
  * countOccurrences(azyxxzyzy, zy) === 3
- * countOccurrences(ababagalamaga, bab) === 1
+ * countOccurrences(ababagalamaga, ba) === 2
  *
  * @param {string} str
  * @param {string} substr
